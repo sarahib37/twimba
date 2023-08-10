@@ -1,0 +1,153 @@
+body{
+    background-color: whitesmoke;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    width: 400px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+header{
+    width: 300px;
+    margin: 15px auto;
+}
+
+h1{
+    margin: 0px;
+    color: #0F8CDF;
+}
+
+.post-render{
+    margin-top: 20px;
+    margin-bottom: -40px;
+}
+
+.post-body{
+    height: 150px;
+    width: 220px;
+    float: right;
+}
+
+.avatar-container{
+    float: left;
+    margin-top: 15px;
+}
+
+.profile-pic{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+textarea{
+    background: none;
+    border: none;
+    resize: none;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+button{
+    width: 100%;
+    background-color: #1DA1F2;
+    border: none;
+    border-radius: 20px;
+    color: whitesmoke;
+    padding:10px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+/* post */
+
+.posted-tweets-container{
+    width: 300px;
+    margin: 0 auto;
+    border-top: 1px solid lightgray;
+    padding-top: 30px;
+    margin-top: 8px;
+}
+
+.posted-tweets-main{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.posted-tweets-comments{
+    display: flex;
+    gap: 10px;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.posted-tweets-text{
+    margin-top: -8px;
+}
+
+.posted-tweets-handle, .comments-handle{
+    font-size: 15px;
+    margin: 0px;
+    margin-bottom: -10px;
+}
+
+.posted-tweets-textbody, .comments-textbody{
+    font-size: 16px;
+
+}
+
+.posted-tweets-icons{
+    display: inline-flex;
+    margin-left: 70px;
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.posted-tweet-icon{
+    display: flex;
+    gap: 4px;
+}
+
+.posted-tweets-comments{
+    margin-left: auto;
+    width: 85%;
+    margin-top: 8px;
+    padding-bottom: 20px;
+    border-top: 1px solid lightgray;
+    padding-top: 25px;
+}
+
+.grey{color: grey}
+
+.isLiked{color: red}
+
+.isRetweeted{color: limegreen}
+
+.hidden{display: none}
+
+input[type="text"]{
+    background-color: whitesmoke;
+    border: none;
+    margin-left: 70px;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 13px;
+    outline-color: #0F8CDF;
+    
+}
